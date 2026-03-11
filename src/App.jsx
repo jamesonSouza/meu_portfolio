@@ -79,7 +79,8 @@ export default function App() {
             <p className="text-lg md:text-xl text-slate-400 leading-relaxed max-w-2xl pt-4">
               Sou um desenvolvedor focado no ecossistema <strong className="text-slate-200 font-medium">Mobile e o uso de IA/Machine Learning</strong>, 
               com curiosidade pelo mundo JavaScript. Meu foco atual é construir aplicativeis móveis com Flutter e modelos de IA, 
-              aprender boas práticas de arquitetura e compartilhar meu conhecimento através de vídeos.
+              aprender boas práticas de arquitetura e compartilhar meu conhecimento através de vídeos. 
+              Ferramentas de analise de dados, ETL, Data Science e Data Analytics também estão no meu radar de aprendizado.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-8">
@@ -175,6 +176,7 @@ export default function App() {
                 <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Bancos de Dados Relacionais</li>
                 <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> JavaScript / TS</li>
                 <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Docker (Explorando)</li>
+                <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500"></div> Ferramentas de Análise de Dados</li>
               </ul>
             </div>
 
