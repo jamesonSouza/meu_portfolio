@@ -91,12 +91,12 @@ export default function App() {
               <a href="https://www.youtube.com/@SupJameson" target="_blank" rel="noreferrer" 
                  className="flex items-center gap-2 px-6 py-3 border border-slate-700 hover:border-slate-500 text-slate-300 rounded-lg transition-colors font-medium">
                 <Youtube size={20} className="text-red-500" />
-                PlayStore
+                Youtube
               </a>
               <a href="https://play.google.com/store/apps/developer?id=JmsApplay&hl=pt_BR" target="_blank" rel="noreferrer" 
                  className="flex items-center gap-2 px-6 py-3 border border-slate-700 hover:border-slate-500 text-slate-300 rounded-lg transition-colors font-medium">
                 <Store size={20} className="text-red-500" />
-                YouTube
+                PlayStore
               </a>
               <a href="https://www.linkedin.com/in/jamesonsouza/" target="_blank" rel="noreferrer" 
                  className="flex items-center gap-2 px-6 py-3 border border-slate-700 hover:border-slate-500 text-slate-300 rounded-lg transition-colors font-medium">
