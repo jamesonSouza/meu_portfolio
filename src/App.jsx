@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, Youtube, ExternalLink, Code2, Server, Terminal, BookOpen } from 'lucide-react';
+import { Github, Linkedin, Mail, Youtube, ExternalLink, Code2, Server, Terminal, BookOpen, Store } from 'lucide-react';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -93,7 +93,11 @@ export default function App() {
                 <Youtube size={20} className="text-red-500" />
                 Youtube
               </a>
-             
+              <a href="https://play.google.com/store/apps/developer?id=JmsApplay&hl=pt_BR" target="_blank" rel="noreferrer" 
+                 className="flex items-center gap-2 px-6 py-3 border border-slate-700 hover:border-slate-500 text-slate-300 rounded-lg transition-colors font-medium">
+                <Store size={20} className="text-red-500" />
+                PlayStore
+              </a>
               <a href="https://www.linkedin.com/in/jamesonsouza/" target="_blank" rel="noreferrer" 
                  className="flex items-center gap-2 px-6 py-3 border border-slate-700 hover:border-slate-500 text-slate-300 rounded-lg transition-colors font-medium">
                 <Linkedin size={20} className="text-blue-400" />
