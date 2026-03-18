@@ -319,8 +319,8 @@ export default function App() {
           </p>
           <div className="flex items-center gap-4 text-slate-500">
             <a href="https://github.com/jamesonSouza" className="hover:text-slate-300 transition-colors"><Github size={18} /></a>
-            <a href="#" className="hover:text-slate-300 transition-colors"><Linkedin size={18} /></a>
-            <a href="#" className="hover:text-slate-300 transition-colors"><Youtube size={18} /></a>
+            <a href="https://www.linkedin.com/in/jamesonsouza/" className="hover:text-slate-300 transition-colors"><Linkedin size={18} /></a>
+            <a href="https://www.youtube.com/@SupJameson" className="hover:text-slate-300 transition-colors"><Youtube size={18} /></a>
           </div>
         </div>
       </footer>
