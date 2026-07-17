@@ -1,11 +1,12 @@
 {
   "rewrites": [
-     { "source": "/", "destination": "/privacidade.html" },
-    { "source": "/(.*)", "destination": "/index.html" },
     {
       "source": "/webhooks/whatsapp/:match*",
       "destination": "http://fone.eletricomaterial.com:8060/webhooks/whatsapp/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
-    
   ]
 }
