@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade - Time Focal</title>
+  <meta name="description" content="Política de Privacidade do aplicativo Time Focal, da JmsApplay.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/time-focal/estilo.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <svg class="logo" viewBox="0 0 108 108" aria-hidden="true">
+      <rect width="108" height="108" rx="26" fill="#0b0c0f"/>
+      <g fill="none" stroke="#c8f560" stroke-width="6" stroke-linecap="round">
+        <path d="M73.33,62.21 A21,21 0 0,1 45.13,73.03"/>
+        <path d="M37.23,66.64 A21,21 0 0,1 41.95,36.80"/>
+        <path d="M51.44,33.16 A21,21 0 0,1 74.92,52.17"/>
+      </g>
+      <circle cx="54" cy="54" r="6.5" fill="#c8f560"/>
+    </svg>
+    <div>
+      <div class="app">Time Focal</div>
+      <div class="dev">Desenvolvido por JmsApplay</div>
+    </div>
+  </div>
+</header>
+<nav>
+  <div class="wrap">
+    <a href="/time-focal/privacidade" aria-current="page">Privacidade</a>
+    <a href="/time-focal/excluir-conta">Excluir conta e dados</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap card">
+    <h1>Política de Privacidade</h1>
+    <p class="date">Última atualização: 1 de novembro de 2026</p>
+
+    <p>Esta política explica como o aplicativo <strong>Time Focal</strong>
+      (pacote <code>com.jmsapplay.time_focal</code>), desenvolvido pela <strong>JmsApplay</strong>,
+      trata os dados de quem o utiliza, conforme a Lei Geral de Proteção de Dados
+      (LGPD, Lei nº 13.709/2018) e as políticas da Google Play.</p>
+
+    <div class="note">
+      <strong>Resumo:</strong> o que você faz no celular (apps abertos, tempo de tela, regras,
+      motivos digitados e imagens da câmera) <strong>fica somente no seu aparelho</strong>.
+      Não vendemos dados e não exibimos anúncios. Só vão para a internet os dados de login,
+      do teste grátis e da assinatura.
+    </div>
+
+    <h2>1. Quem é o controlador dos dados</h2>
+    <p>JmsApplay, desenvolvedora do Time Focal. Contato e encarregado de dados (DPO):
+      <a href="mailto:jmsapplay@gmail.com">jmsapplay@gmail.com</a>.</p>
+
+    <h2>2. Uso do serviço de Acessibilidade</h2>
+    <p>O Time Focal usa a <strong>API de Acessibilidade do Android</strong> para a sua função
+      principal: perceber quando você abre um app que <strong>você mesmo escolheu bloquear</strong>
+      e mostrar uma pausa antes de liberá-lo. Com essa permissão, o app:</p>
+    <ul>
+      <li>identifica <strong>qual app está aberto na tela</strong> (o nome do pacote e da tela),
+        para saber se ele está na sua lista de bloqueio;</li>
+      <li>verifica a <strong>lista de janelas abertas</strong> para fechar a janela flutuante
+        (picture-in-picture) de vídeos de apps bloqueados;</li>
+      <li>somente se você ativar o <strong>modo restrito</strong>, lê o texto das telas de
+        Configurações e de desinstalação que mencionam o Time Focal, para impedir que ele seja
+        desligado ou desinstalado durante as suas regras.</li>
+    </ul>
+    <p>O Time Focal <strong>não lê</strong> mensagens, senhas, conteúdo de conversas ou o que você
+      digita, <strong>não grava</strong> a tela e <strong>não envia</strong> nada do que observa para
+      fora do aparelho. Do que o serviço percebe, o app guarda apenas, no próprio celular, o registro
+      de quando um app bloqueado foi aberto, para os relatórios. Você pode desligar o serviço a
+      qualquer momento em Configurações &rarr; Acessibilidade.</p>
+
+    <h2>3. Dados que ficam apenas no seu aparelho</h2>
+    <p>Ficam guardados na área privada do app e <strong>não são enviados</strong> à JmsApplay nem a
+      terceiros:</p>
+    <ul>
+      <li>Suas regras, apps bloqueados, sessões de foco e preferências;</li>
+      <li>Registros de bloqueio: quando um app bloqueado foi aberto, se você desistiu ou liberou, e
+        os motivos que você digitou;</li>
+      <li>Tempo de tela por app (lido pela permissão <strong>Acesso ao uso</strong> do Android);</li>
+      <li>Modo restrito: apenas um código criptográfico (hash) do código de recuperação, nunca o
+        código em si.</li>
+    </ul>
+
+    <h2>4. Câmera e voz</h2>
+    <p>Nos desafios de exercício (flexões, agachamentos e pausa para os olhos), as imagens da câmera
+      frontal são analisadas <strong>na hora, no próprio aparelho</strong>, pela tecnologia Google ML
+      Kit, apenas para contar as repetições. As imagens <strong>não são gravadas, guardadas nem
+      enviadas</strong>. O ML Kit pode enviar ao Google informações técnicas de diagnóstico (modelo
+      do aparelho, versão do sistema, desempenho), <strong>sem as imagens</strong>. A contagem falada
+      usa o mecanismo de voz do próprio Android.</p>
+    <p>A câmera só é usada quando você inicia um desafio.</p>
+
+    <h2>5. Dados enviados a serviços de terceiros</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Serviço</th><th>Dados</th><th>Para quê</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Firebase Authentication (Google)</td>
+            <td>Nome, e-mail e identificador da conta Google com que você entrar.</td>
+            <td>Identificar sua conta e recuperar o teste e a assinatura em outro aparelho.</td>
+          </tr>
+          <tr>
+            <td>Cloud Firestore (Google)</td>
+            <td>E-mail da conta; identificador do aparelho em forma de código criptográfico (hash) e
+              o modelo do aparelho, até 3 aparelhos por conta; datas de criação, do último acesso e
+              do início do teste grátis.</td>
+            <td>Garantir que o teste grátis seja usado uma vez por conta e por aparelho e limitar o
+              uso da assinatura a 3 aparelhos (prevenção de fraude).</td>
+          </tr>
+          <tr>
+            <td>Google Play (faturamento)</td>
+            <td>Plano assinado, datas e status da assinatura, e um código derivado da sua conta no
+              app que vincula a compra a ela. Os dados de pagamento ficam com o Google; não temos
+              acesso ao seu cartão.</td>
+            <td>Processar a assinatura Pro e liberar os recursos pagos.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>O identificador do aparelho é calculado a partir do identificador que o Android dá ao app e
+      transformado em um código irreversível; o endereço MAC do aparelho <strong>não é coletado</strong>
+      (o Android não permite esse acesso aos apps).</p>
+    <p>O Time Focal <strong>não exibe anúncios</strong>, <strong>não usa ferramentas de
+      estatísticas de uso</strong> e <strong>não vende nem aluga</strong> dados pessoais. O Google
+      segue sua própria <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+      política de privacidade</a>.</p>
+
+    <h2>6. Permissões do aplicativo</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Permissão</th><th>Uso</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Serviço de Acessibilidade</td><td>Detectar o app aberto e mostrar a pausa (item 2).</td></tr>
+          <tr><td>Acesso ao uso</td><td>Tempo de tela por app nos relatórios, no aparelho.</td></tr>
+          <tr><td>Câmera</td><td>Contar os exercícios dos desafios, no aparelho.</td></tr>
+          <tr><td>Internet</td><td>Login, teste grátis e assinatura.</td></tr>
+          <tr><td>Faturamento da Google Play</td><td>Assinatura Pro mensal ou anual.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>7. Bases legais (LGPD)</h2>
+    <ul>
+      <li><strong>Execução de contrato</strong> (art. 7º, V): conta, teste grátis e assinatura;</li>
+      <li><strong>Legítimo interesse</strong> (art. 7º, IX): prevenção de fraude no teste grátis e
+        na assinatura;</li>
+      <li><strong>Consentimento</strong> (art. 7º, I): Acessibilidade, Acesso ao uso e câmera,
+        pedidos com explicação antes de serem ativados e revogáveis nas configurações do Android.</li>
+    </ul>
+
+    <h2>8. Transferência internacional</h2>
+    <p>O Google pode armazenar dados em servidores fora do Brasil, com garantias de proteção
+      compatíveis com a LGPD (art. 33).</p>
+
+    <h2>9. Por quanto tempo guardamos</h2>
+    <ul>
+      <li>Dados no aparelho: até você excluí-los, limpar os dados do app ou desinstalá-lo;</li>
+      <li>Conta (e-mail e aparelhos): enquanto a conta existir;</li>
+      <li>Registro do teste grátis (data de início e o código do aparelho): mantido mesmo após a
+        exclusão da conta, já <strong>sem o e-mail</strong>, para impedir que o teste seja usado de
+        novo no mesmo aparelho;</li>
+      <li>Registros de compra da Google Play: pelo prazo exigido pela legislação fiscal e de defesa
+        do consumidor.</li>
+    </ul>
+
+    <h2>10. Seus direitos</h2>
+    <p>Pela LGPD (art. 18) você pode pedir: confirmação e acesso aos dados, correção, anonimização,
+      portabilidade, eliminação, informação sobre compartilhamento e revogação do consentimento.
+      Escreva para <a href="mailto:jmsapplay@gmail.com">jmsapplay@gmail.com</a>; respondemos em até
+      15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD).</p>
+    <p>Para excluir a conta e os dados, veja
+      <a href="/time-focal/excluir-conta">Excluir conta e dados</a>.</p>
+
+    <h2>11. Segurança</h2>
+    <p>As comunicações com o Google usam conexão criptografada (HTTPS/TLS), e as regras do banco de
+      dados só permitem que cada conta acesse os próprios dados. Os dados locais ficam na área
+      privada do app no Android. Proteja seu aparelho com bloqueio de tela.</p>
+
+    <h2>12. Crianças e adolescentes</h2>
+    <p>O app não se destina a menores de 13 anos. Adolescentes devem usá-lo com o conhecimento dos
+      pais ou responsáveis.</p>
+
+    <h2>13. Alterações</h2>
+    <p>Podemos atualizar esta política. A data no topo indica a última versão; mudanças relevantes
+      serão avisadas no app.</p>
+
+    <h2>14. Contato</h2>
+    <p>JmsApplay - <a href="mailto:jmsapplay@gmail.com">jmsapplay@gmail.com</a></p>
+  </div>
+</main>
+
+<footer>&copy; 2026 JmsApplay. Time Focal ajuda você a usar o celular com intenção.</footer>
+</body>
+</html>
